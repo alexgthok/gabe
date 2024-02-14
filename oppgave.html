@@ -11,7 +11,43 @@
     <link rel="stylesheet" href="tut.css">
 
     <title>Galelo AI</title>
+    <style>
+                #center-container {
+            position: absolute;
+            top: 1500px;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        #center-container2 {
+            position: absolute;
+            top: 2280px;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            
+        }
+        #center-container3 {
+            position: absolute;
+            top: 2280px;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            
+        }
 
+        #code-container {
+            width: 400px;
+            padding: 20px;
+            background-color: #f0f0f0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            text-align: center;
+        }
+
+        #code-textarea {
+            width: 100%;
+            height: 150px;
+            margin-bottom: 10px;
+        }
+    </style>
 </head>
 
 <body>
@@ -25,40 +61,145 @@
 
     </header>
 
+    <div class="container">
+        <iframe class="promp" width="560" height="315" src="https://www.youtube.com/embed/siFSpdwLry4?si=oU5l0fOZdQSehQL4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen class="video"></iframe>
+    </div>
+    <p class="titla2">OPPGAVEN PAYPAL</p>
+
+    <link rel="stylesheet" href="tut2.css">
+    <p class="titla">I denne opplæringen skal vi lage en enkel nettside som etterligner utformingen av Elon Musks tidelige PayPal nettsted.</p>
+    <div class="overlay"></div>
+
+       <link rel="stylesheet" href="tut2.css">
+    <div class="overlay"></div>
+    <p class="titla3">Insperasjon:</p>
+
+    <div class="container2">
+        <img id="centered-gif" src="images\inspo.gif" alt="Centered GIF">
+    </div>
+
+    <p class="titla4">Vi skal bruke HTML, CSS og optional javascript for og lage noe lignende.</p>
+    <p class="titla5">Gå til denne nettsiden <a href="https://onecompiler.com/html" target="_blank">https://onecompiler.com/html</a>, dette er nettsiden dere skal kode på.</p>
+    <p class="titla6">Her er noen elementer du kan bruke.</p>
 
 
-<section class="wrapper">
+
+
+    <div id="center-container">
+        <div id="code-container">
+            <textarea id="code-textarea" readonly>&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+    &lt;title&gt;Min Paypal Side&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;</textarea>
+            <button id="copy-button" onclick="copyCode()">Copy HTML Code</button>
+        </div>
+    </div>
+
+    <script>
+        function copyCode() {
+            var textarea = document.getElementById("code-textarea");
+            textarea.select();
+            document.execCommand("copy");
+        }
+    </script>
+
+
+
+
+
+    <div id="center-container">
+        <div id="code-container">
+            <textarea id="code-textarea" readonly>&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+    &lt;title&gt;Min Paypal Side&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;</textarea>
+            <button id="copy-button" onclick="copyCode()">Copy HTML Code</button>
+        </div>
+    </div>
+
+    <script>
+        function copyCode() {
+            var textarea = document.getElementById("code-textarea");
+            textarea.select();
+            document.execCommand("copy");
+        }
+    </script>
+
+
+    <div id="center-container2">
+
+<div id="code-container">
+    <textarea id="code-textarea" readonly>
+&lt;img src="path/to/your/image.jpg" alt="Description of the image"&gt;
+    </textarea>
+</div>
+</div>
+
+<script>
+    function copyCode() {
+        var textarea = document.getElementById("code-textarea");
+        textarea.select();
+        document.execCommand("copy");
+    }
+</script>
+
+
+
+
+
+
+    <div class="container3">
+        <img id="centered-gif2" src="images\tut1.gif" alt="Centered GIF">
+    </div>
+    <p class="titla7">Det du nettop legget til koden er hoved koden til html. I mellom BODY elementen, kan du legge til din egen kode.</p>
+    <p class="titla8">Hvordan legge til bilde:</p>
+
+    <div class="container4">
+        <img id="centered-gif4" src="images\tut2.gif" alt="Centered GIF">
+    </div>
+
+
     <div id="stars"></div>
     <div id="stars2"></div>
     <div id="stars3"></div>
-
 
 </section>
 
 
 
+<p class="teksten">slik kan du legge til tekst:</p>
+
+
+
+<p class="titla10">du kan bruke p taggen for og entere tekst. Kontakt oss for mere hjelp.</p>
+
+
+<div class="container5">
+    <img id="centered-gif5" src="images\tekst.gif" alt="Centered GIF">
+</div>
 
 
 
 
-
-
-
-
-
-<footer>
-    <img class="end"  src="images\end.svg" alt="end">
-    <img class="end1logo"  src="images\logoglow.png" alt="logo2">
-
-</footer>
-
-
-
-<button class="support" onclick="window.location.href='fis.com'">FÅ HJELP</button>
 
 
 <script src="js\smooth-scrollbar.js"></script>
 <script src="js\script.js"></script>
+<script type="text/javascript">window.$crisp=[];window.CRISP_WEBSITE_ID="edfc4fe1-8248-4889-ac45-c6389f2b0289";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();</script>
 
 </body>
 </html>
